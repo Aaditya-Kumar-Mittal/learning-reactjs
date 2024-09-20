@@ -6,8 +6,9 @@ import ReactPropsParent from "./components/ReactPropsParent";
 import SendingProps from "./components/SendingProps";
 import Fruits from "./components/Fruits";
 import RenderingArrayObjects from "./components/RenderingArrayObjects";
-import './App.css';
+import "./App.css";
 import RunCounter from "./components/RunCounter";
+import InlineStyling from "./components/InlineStyling";
 
 function App() {
   //functional component
@@ -41,7 +42,8 @@ function App() {
       {/* <SendingProps /> */}
       {/* <Fruits /> */}
       {/* <RenderingArrayObjects /> */}
-      <RunCounter />
+      {/* <RunCounter /> */}
+      <InlineStyling />
     </div>
   );
 }

@@ -4,6 +4,13 @@ function Counter() {
   //Create a state variable
   //const [variable, funcionState]
   const [count, setCount] = useState(0);
+
+  const [incrementBy, setIncrementBy] = useState(2);
+
+  function increaseIncrement() {
+    setIncrementBy(incrementBy + 2);
+  }
+
   return (
     <div>
       <h1>Using State and State Variables in React</h1>
@@ -23,6 +30,10 @@ function Counter() {
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <span></span>
       <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <br />
+      <h2>If one wants to increment the value by : {incrementBy}</h2>
+      <button onClick={() => increaseIncrement()}>Increment By 2</button>
+      <button onClick={() => setCount(count + incrementBy)}>Increase By {incrementBy}</button>
     </div>
   );
 }
