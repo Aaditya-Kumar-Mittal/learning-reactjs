@@ -9,6 +9,11 @@ import RenderingArrayObjects from "./components/RenderingArrayObjects";
 import "./App.css";
 import RunCounter from "./components/RunCounter";
 import InlineStyling from "./components/InlineStyling";
+import UnderstandingProps from "./components/UnderstandingProps";
+import DestructuringProps2 from "./components/DestructuringProps2";
+import SendProps from "./components/SendProps";
+import PassingArrays from "./components/PassingArrays";
+import ConditionalRendering from "./components/ConditionalRendering";
 
 function App() {
   //functional component
@@ -43,7 +48,15 @@ function App() {
       {/* <Fruits /> */}
       {/* <RenderingArrayObjects /> */}
       {/* <RunCounter /> */}
-      <InlineStyling />
+      {/* <InlineStyling /> */}
+      {/* <Component1 /> */}
+      {/* <UnderstandingJSX/> */}
+
+      {/* //passing props here */}
+      {/* <UnderstandingProps fullname="Aaditya Kumar Mittal" /> */}
+      {/* <SendProps/> */}
+      {/* <PassingArrays/> */}
+      <ConditionalRendering/>
     </div>
   );
 }
