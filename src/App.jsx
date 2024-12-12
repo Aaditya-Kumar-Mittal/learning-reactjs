@@ -1,62 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import Hello from "./components/Hello";
-import ReactPropsChild from "./components/ReactPropsChild";
-import ReactPropsParent from "./components/ReactPropsParent";
-import SendingProps from "./components/SendingProps";
-import Fruits from "./components/Fruits";
-import RenderingArrayObjects from "./components/RenderingArrayObjects";
+import React from "react";
 import "./App.css";
-import RunCounter from "./components/RunCounter";
-import InlineStyling from "./components/InlineStyling";
-import UnderstandingProps from "./components/UnderstandingProps";
-import DestructuringProps2 from "./components/DestructuringProps2";
-import SendProps from "./components/SendProps";
-import PassingArrays from "./components/PassingArrays";
-import ConditionalRendering from "./components/ConditionalRendering";
+import ReactBasicsMethodPropsParent from "./components/ReactBasicsMethodPropsParent";
+import ReactBasicsConditionalRendering1 from "./components/ReactBasicsConditionalRendering1";
+import ReactBasicsConditionalRendering2 from "./components/ReactBasicsConditionalRendering2";
+import ReactBasicsConditionalRendering3 from "./components/ReactBasicsConditionalRendering3";
 
 function App() {
-  //functional component
-
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
-
-      {/* <ReactPropsParent /> */}
-      {/* <SendingProps /> */}
-      {/* <Fruits /> */}
-      {/* <RenderingArrayObjects /> */}
-      {/* <RunCounter /> */}
-      {/* <InlineStyling /> */}
-      {/* <Component1 /> */}
-      {/* <UnderstandingJSX/> */}
-
-      {/* //passing props here */}
-      {/* <UnderstandingProps fullname="Aaditya Kumar Mittal" /> */}
-      {/* <SendProps/> */}
-      {/* <PassingArrays/> */}
-      <ConditionalRendering/>
+      {/* <ReactBasicsMethodPropsParent /> */}
+      {/* <ReactBasicsConditionalRendering1/>
+       */}
+       {/* <ReactBasicsConditionalRendering2/> */}
+       <ReactBasicsConditionalRendering3/>
     </div>
   );
 }
