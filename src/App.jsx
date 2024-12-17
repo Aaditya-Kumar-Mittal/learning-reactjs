@@ -16,6 +16,8 @@ import ReactRenderUser from "./components/ReactRenderUser";
 import ReactRenderCounter from "./components/ReactRenderCounter";
 import ReactContextComponentC from "./components/ReactContextComponentC";
 import { UserProvider } from "./components/ReactContextUserContext";
+import ReactHTTPPostList1 from "./components/ReactHTTPPostList1";
+import ReactHTTPPostList2 from "./components/ReactHTTPPostList2";
 
 function App() {
   return (
@@ -57,9 +59,12 @@ function App() {
           />
         )}
       /> */}
-      <UserProvider value="Aaditya Kumar Mittal">
+      {/* <UserProvider value="Aaditya Kumar Mittal">
         <ReactContextComponentC />
-      </UserProvider>
+      </UserProvider> */}
+
+      {/* <ReactHTTPPostList1 /> */}
+      <ReactHTTPPostList2 />
     </div>
   );
 }

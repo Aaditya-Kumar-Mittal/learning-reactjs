@@ -1,0 +1,53 @@
+/* ReactHTTPPostList1.css */
+
+/* General Container Styling */
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Post List Styling */
+.post-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* Individual Post Card Styling */
+.post-card {
+  background-color: #56aaee;
+  padding: 15px;
+  border: 1px solid #030000;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* Post Card Hover Effect */
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Loading Message Styling */
+.loading {
+  font-size: 1.2rem;
+  color: #999;
+  text-align: center;
+  grid-column: span 2;
+}
