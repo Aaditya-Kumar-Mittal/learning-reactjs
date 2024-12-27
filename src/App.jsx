@@ -1,13 +1,7 @@
 import React from "react";
 import "./App.css";
-import ReactHookUseContext1 from "./hooks/ReactHookUseContext1";
-import ReactHookUseContext2 from "./hooks/ReactHookUseContext2";
-import ReactHookUseReducer1 from "./hooks/ReactHookUseReducer1";
-import ReactHookUseReducer2 from "./hooks/ReactHookUseReducer2.";
-import ReactHookUseReducer3 from "./hooks/ReactHookUseReducer3";
-import ReactHookUseReducer4 from "./hooks/ReactHookUseReducer4";
-import ReactHookUseReducer5 from "./hooks/ReactHookUseReducer5";
-import ReactHookUseReducer6 from "./hooks/ReactHookUseReducer6";
+import ReactHookUseCallback1 from "./hooks/ReactHookUseCallback1";
+import ReactHookUseMemo1 from "./hooks/ReactHookUseMemo1";
 
 function App() {
   return (
@@ -19,7 +13,9 @@ function App() {
       {/* <ReactHookUseReducer3/> */}
       {/* <ReactHookUseReducer4 /> */}
       {/* <ReactHookUseReducer5 /> */}
-      <ReactHookUseReducer6 />
+      {/* <ReactHookUseReducer6 /> */}
+      {/* <ReactHookUseCallback1 /> */}
+      <ReactHookUseMemo1 />
     </div>
   );
 }
