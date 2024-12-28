@@ -26,6 +26,8 @@
 
 In this guide, we will explore how to use React Developer Tools (DevTools) to enhance your debugging experience when developing React apps. Whether you're a beginner or an experienced developer, mastering these tools can significantly improve your efficiency. This tutorial will cover installation, navigating through key features like the Components and Profiler tabs, and using useful settings to optimize your debugging process.
 
+[Video Guide](https://youtu.be/d10qxIXgLbg?si=sZpZq3zKEGGXbZ4Z)
+
 ## Installing React Developer Tools
 
 To get started, you need to install the React Developer Tools extension. It is available for Chrome, Firefox, and Edge. Below are the installation steps for Chrome:
